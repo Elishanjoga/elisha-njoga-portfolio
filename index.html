@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Elisha Njoga — Frontend Engineer, QA Engineer, and Product Quality Specialist." />
-  <title>Elisha Njoga | Frontend Engineer & QA</title>
+  <meta name="description" content="Elisha Njoga — Senior Frontend Engineer, Angular Architect, Full-Stack Engineer and Quality Engineering specialist." />
+  <meta name="theme-color" content="#0b0d0c" />
+  <title>Elisha Njoga | Senior Frontend Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -12,11 +13,12 @@
 </head>
 <body>
   <header class="nav">
-    <a class="brand" href="#home">ELisha Njoga<span>.</span></a>
-    <nav>
+    <a class="brand" href="#home" aria-label="Elisha Njoga home">ELISHA NJOGA<span>.</span></a>
+    <nav aria-label="Primary navigation">
       <a href="#about">About</a>
       <a href="#expertise">Expertise</a>
       <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
       <a href="#stack">Stack</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -26,54 +28,63 @@
   <main>
     <section id="home" class="hero section">
       <div class="hero-copy">
-        <p class="eyebrow">FRONTEND ENGINEER · QA · PRODUCT QUALITY</p>
-        <h1>I build digital products that <em>work beautifully.</em></h1>
+        <p class="eyebrow">SENIOR FRONTEND ENGINEER · ANGULAR ARCHITECT · FULL-STACK ENGINEER</p>
+        <h1>I build <em>scalable software</em> that performs.</h1>
         <p class="hero-text">
-          I'm Elisha Njoga, a software engineer focused on frontend development,
-          quality engineering, test automation, and translating business requirements
-          into reliable, user-friendly software.
+          I'm Elisha Njoga, a software engineer focused on frontend architecture, Angular,
+          TypeScript and quality engineering. I build enterprise applications that connect
+          strong engineering practices with measurable product outcomes.
         </p>
         <div class="actions">
-          <a class="button primary" href="#work">View my work</a>
-          <a class="button secondary" href="#contact">Get in touch</a>
+          <a class="button primary" href="#work">Explore my work</a>
+          <a class="button secondary" href="mailto:elishanjoga@gmail.com">Let's connect</a>
         </div>
         <div class="hero-meta">
-          <span>Based in Nairobi, Kenya</span>
-          <span>React · Angular · TypeScript</span>
-          <span>Playwright · CI/CD</span>
+          <span>Nairobi, Kenya</span>
+          <span>Angular · TypeScript · React</span>
+          <span>Playwright · CI/CD · Cloud</span>
         </div>
       </div>
-      <div class="hero-card">
+
+      <div class="hero-card" aria-label="Engineering profile">
         <div class="orb"></div>
         <div class="code-card">
-          <span class="line"><b>01</b> const <i>quality</i> = true;</span>
-          <span class="line"><b>02</b> const <i>product</i> = "user-first";</span>
-          <span class="line"><b>03</b> ship(<i>quality, product</i>);</span>
-          <span class="line"><b>04</b> // build. test. improve.</span>
+          <span class="line"><b>01</b> const <i>architecture</i> = scalable;</span>
+          <span class="line"><b>02</b> const <i>quality</i> = automated;</span>
+          <span class="line"><b>03</b> const <i>product</i> = userFirst;</span>
+          <span class="line"><b>04</b> ship(<i>quality, impact</i>);</span>
         </div>
-        <div class="floating-tag tag-one">Frontend</div>
-        <div class="floating-tag tag-two">QA Automation</div>
+        <div class="floating-tag tag-one">Angular Architecture</div>
+        <div class="floating-tag tag-two">Quality Engineering</div>
         <div class="floating-tag tag-three">Product Thinking</div>
       </div>
+    </section>
+
+    <section class="section metrics" aria-label="Career impact">
+      <div class="metric"><strong>8+</strong><span>Years engineering experience</span></div>
+      <div class="metric"><strong>200K+</strong><span>End users reached</span></div>
+      <div class="metric"><strong>900+</strong><span>Active agents supported</span></div>
+      <div class="metric"><strong>80%+</strong><span>Lighthouse performance gains</span></div>
+      <div class="metric"><strong>80%</strong><span>Reduction in production bugs</span></div>
     </section>
 
     <section id="about" class="section split">
       <div>
         <p class="eyebrow">ABOUT</p>
-        <h2>Engineering with a quality mindset.</h2>
+        <h2>Engineering beyond the interface.</h2>
       </div>
       <div class="body-copy">
         <p>
-          My work sits at the intersection of software engineering, quality assurance,
-          and product delivery. I don't just test what gets built — I help shape what
-          should be built, turn business needs into developer-ready requirements, and
-          make sure the final experience is dependable.
+          My work sits at the intersection of frontend engineering, quality engineering,
+          product delivery and technical leadership. I design maintainable interfaces,
+          translate business requirements into clear engineering work, and build automated
+          quality into the delivery lifecycle.
         </p>
         <p>
-          I've worked across insurance technology, portals, dashboards, integrations,
-          automation, reporting, onboarding, payments, claims, renewals, and operational
-          workflows. This gives me a practical understanding of both the engineering
-          details and the business outcomes behind a feature.
+          My experience spans insurance platforms, dashboards, agent portals, PWAs,
+          integrations, onboarding, payments, claims, renewals, reporting and operational
+          workflows. That breadth helps me connect technical decisions to the business
+          outcomes they are meant to deliver.
         </p>
       </div>
     </section>
@@ -81,32 +92,32 @@
     <section id="expertise" class="section">
       <p class="eyebrow">EXPERTISE</p>
       <div class="section-heading">
-        <h2>What I bring to a product team.</h2>
+        <h2>What I bring to an engineering team.</h2>
       </div>
       <div class="cards">
         <article class="card">
           <span class="number">01</span>
-          <h3>Frontend Engineering</h3>
-          <p>Build responsive, maintainable interfaces with modern JavaScript frameworks, strong component architecture, and practical UX thinking.</p>
-          <div class="tags"><span>React</span><span>Angular</span><span>TypeScript</span><span>RxJS</span></div>
+          <h3>Frontend Architecture</h3>
+          <p>Build modular, maintainable and high-performing applications with strong component architecture, lazy loading, reusable patterns and practical UX thinking.</p>
+          <div class="tags"><span>Angular</span><span>TypeScript</span><span>RxJS</span><span>React</span></div>
         </article>
         <article class="card">
           <span class="number">02</span>
           <h3>Quality Engineering</h3>
-          <p>Design test strategies that cover critical user journeys, API behaviour, regression risk, edge cases, and release confidence.</p>
-          <div class="tags"><span>Playwright</span><span>Postman</span><span>Xray</span><span>BDD</span></div>
+          <p>Design automation around critical user journeys, API behaviour, regression risk and release confidence, with testing embedded in delivery.</p>
+          <div class="tags"><span>Playwright</span><span>BDD</span><span>Postman</span><span>Xray</span></div>
         </article>
         <article class="card">
           <span class="number">03</span>
           <h3>Product & Requirements</h3>
-          <p>Turn ambiguous business problems into clear user stories, acceptance criteria, test cases, and developer-friendly Jira tickets.</p>
+          <p>Turn ambiguous business problems into clear user stories, acceptance criteria, UAT scenarios and developer-ready Jira tickets.</p>
           <div class="tags"><span>Jira</span><span>UAT</span><span>Requirements</span><span>Workflows</span></div>
         </article>
         <article class="card">
           <span class="number">04</span>
-          <h3>Delivery & DevOps</h3>
-          <p>Support reliable delivery through CI/CD, environments, containers, cloud infrastructure, monitoring, and release workflows.</p>
-          <div class="tags"><span>Docker</span><span>AWS</span><span>GitHub Actions</span><span>Kubernetes</span></div>
+          <h3>Cloud & Delivery</h3>
+          <p>Support reliable releases through CI/CD, containers, cloud environments, infrastructure automation, monitoring and operational troubleshooting.</p>
+          <div class="tags"><span>AWS</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span></div>
         </article>
       </div>
     </section>
@@ -114,56 +125,99 @@
     <section id="work" class="section work-section">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">SELECTED EXPERIENCE</p>
-          <h2>Products, platforms & systems.</h2>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Engineering outcomes, not just screenshots.</h2>
         </div>
-        <p class="muted">A snapshot of the environments where I've contributed.</p>
+        <p class="muted">Selected platforms and product problems I've helped solve.</p>
       </div>
 
-      <div class="work-list">
-        <article class="work-item">
-          <div class="work-number">01</div>
-          <div class="work-main">
-            <p class="work-label">INSURTECH · FRONTEND · QA</p>
-            <h3>Lami Technologies</h3>
-            <p>Frontend engineering and quality engineering across Masterview, Agent Portal, PWA and operational platforms. Contributions span automation, feature delivery, requirements analysis, UAT, regression testing and release quality.</p>
-            <div class="tags"><span>Angular</span><span>TypeScript</span><span>Playwright</span><span>Jira/Xray</span></div>
-          </div>
-          <div class="work-side">2021 — Present</div>
+      <div class="case-grid">
+        <article class="case-study featured">
+          <div class="case-top"><span>01 · INSURTECH</span><span>Angular · PWA · Playwright</span></div>
+          <h3>Lami Agent App</h3>
+          <p>A self-onboarding platform enabling insurance agents to compare quotes and sell products across multiple underwriters.</p>
+          <div class="impact"><strong>900+</strong><span>active agents</span><strong>60%</strong><span>sales increase</span></div>
+          <div class="tags"><span>Angular 17</span><span>TypeScript</span><span>RxJS</span><span>PWA APIs</span><span>Playwright</span></div>
         </article>
 
-        <article class="work-item">
-          <div class="work-number">02</div>
-          <div class="work-main">
-            <p class="work-label">INSURANCE · FULL STACK</p>
-            <h3>Bluewave Insurance</h3>
-            <p>Consulting and full-stack development work around digital insurance workflows, including backend services, databases, integrations and customer-facing flows.</p>
-            <div class="tags"><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>AWS</span></div>
-          </div>
-          <div class="work-side">2020 — 2024</div>
+        <article class="case-study">
+          <div class="case-top"><span>02 · ENTERPRISE PLATFORM</span><span>Angular · Performance</span></div>
+          <h3>Lami Master Dashboard</h3>
+          <p>Enterprise insurance operations platform covering policy, agent and operational workflows. Contributed to frontend modernization and performance improvements.</p>
+          <div class="impact"><strong>30% → 79%</strong><span>Lighthouse performance</span></div>
+          <div class="tags"><span>Angular</span><span>RxJS</span><span>Angular Material</span><span>Architecture</span></div>
         </article>
 
-        <article class="work-item">
-          <div class="work-number">03</div>
-          <div class="work-main">
-            <p class="work-label">INFRASTRUCTURE · ENGINEERING</p>
-            <h3>Network & DevOps Engineering</h3>
-            <p>Experience spanning infrastructure, deployment automation, cloud environments, containerisation, web servers, CI/CD and operational troubleshooting.</p>
-            <div class="tags"><span>Docker</span><span>Kubernetes</span><span>Terraform</span><span>Nginx</span></div>
+        <article class="case-study">
+          <div class="case-top"><span>03 · CUSTOMER EXPERIENCE</span><span>Angular · APIs</span></div>
+          <h3>Lami B2C Self-Onboarding</h3>
+          <p>Customer onboarding experience designed to reduce friction and increase direct consumption of insurance APIs and motor insurance products.</p>
+          <div class="impact"><strong>30%</strong><span>API-consumer onboarding growth</span><strong>60%</strong><span>motor sales increase</span></div>
+          <div class="tags"><span>Angular</span><span>TypeScript</span><span>RxJS</span><span>REST APIs</span></div>
+        </article>
+
+        <article class="case-study">
+          <div class="case-top"><span>04 · FULL STACK</span><span>Node.js · PostgreSQL · AWS</span></div>
+          <h3>Bluewave USSD Insurance Platform</h3>
+          <p>Digital insurance platform supporting high-volume customer interactions through USSD and backend services.</p>
+          <div class="impact"><strong>200K+</strong><span>users</span><strong>50%</strong><span>latency reduction</span></div>
+          <div class="tags"><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>AWS</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section work-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CAREER</p>
+          <h2>From frontend engineering to technical leadership.</h2>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">2021 — PRESENT</div>
+          <div>
+            <p class="work-label">LAMi TECHNOLOGIES</p>
+            <h3>Senior Frontend Engineer & QA Lead</h3>
+            <p>Frontend architecture, Angular platform development, quality engineering, Playwright automation, requirements analysis, UAT, regression testing and release quality across enterprise insurance products.</p>
           </div>
-          <div class="work-side">Engineering</div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2020 — 2024</div>
+          <div>
+            <p class="work-label">BLUEWAVE INSURANCE</p>
+            <h3>Full-Stack Engineer → Backend Team Lead</h3>
+            <p>Built and supported digital insurance solutions across frontend, Node.js services, databases, integrations and cloud infrastructure while taking on technical leadership responsibilities.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2020 — 2022</div>
+          <div>
+            <p class="work-label">MADAVI AGENCY</p>
+            <h3>CTO</h3>
+            <p>Technical leadership spanning product delivery, engineering direction and implementation.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2018 — 2020</div>
+          <div>
+            <p class="work-label">MADAVI AGENCY</p>
+            <h3>Frontend Engineer — React.js</h3>
+            <p>Built customer-facing web experiences with React and modern JavaScript engineering practices.</p>
+          </div>
         </article>
       </div>
     </section>
 
     <section id="stack" class="section stack-section">
-      <p class="eyebrow">TECHNOLOGY</p>
-      <h2>Tools I use to turn ideas into software.</h2>
+      <p class="eyebrow">ENGINEERING STACK</p>
+      <h2>Tools I use to turn ideas into reliable software.</h2>
       <div class="stack-grid">
-        <div><strong>Frontend</strong><p>TypeScript · JavaScript · React · Angular · RxJS · Tailwind · Vite</p></div>
-        <div><strong>Quality</strong><p>Playwright · Playwright-BDD · Cypress · Postman · Jasmine · Jira Xray</p></div>
-        <div><strong>Backend</strong><p>Node.js · Express.js · Java · PostgreSQL · MySQL · MariaDB · Sequelize · Redis</p></div>
-        <div><strong>Cloud & Delivery</strong><p>AWS · Docker · Kubernetes · Terraform · Jenkins · GitHub Actions · GitLab · PM2 · Nginx</p></div>
+        <div><strong>Frontend Architecture</strong><p>TypeScript · JavaScript · Angular 11–20 · React · RxJS · NgRx · Angular Material · Tailwind · Vite · PWA · Micro Frontends</p></div>
+        <div><strong>Quality Engineering</strong><p>Playwright · Playwright-BDD · Cypress · Jest · Jasmine · Puppeteer · Postman · Jira Xray</p></div>
+        <div><strong>Backend & Data</strong><p>Node.js · Express.js · REST APIs · Java · C++ · PostgreSQL · MySQL · MariaDB · MongoDB · Sequelize · Redis · BullMQ</p></div>
+        <div><strong>Cloud & DevOps</strong><p>AWS · GCP · Docker · Kubernetes · Terraform · Jenkins · GitHub Actions · GitLab · PM2 · Nginx</p></div>
       </div>
     </section>
 
@@ -175,14 +229,13 @@
 
     <section id="contact" class="section contact">
       <p class="eyebrow">CONTACT</p>
-      <h2>Have a product to build or improve?</h2>
-      <p>I'm open to conversations around frontend engineering, quality engineering, automation, product delivery, and software quality.</p>
+      <h2>Let's build something meaningful.</h2>
+      <p>I'm open to conversations around frontend architecture, quality engineering, automation, product delivery and software engineering.</p>
       <div class="contact-actions">
         <a class="button primary" href="mailto:elishanjoga@gmail.com">Email me ↗</a>
-        <a class="button secondary" href="https://www.linkedin.com/in/elisha-njoga/" target="_blank" rel="noopener">LinkedIn ↗</a>
-        <a class="button secondary" href="https://github.com/Elishanjoga" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="button secondary" href="https://www.linkedin.com/in/elisha-njoga/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a class="button secondary" href="https://github.com/Elishanjoga" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
       </div>
-      <p class="small-note">Replace the placeholder email and profile links with your actual contact details before publishing.</p>
     </section>
   </main>
 
@@ -190,6 +243,7 @@
     <span>© 2026 Elisha Njoga</span>
     <span>Built with HTML · CSS · JavaScript</span>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
